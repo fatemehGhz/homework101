@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice5</title>
+</head>
+<body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+   
+    <table style="margin:auto;">
+        <tbody>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" value="Fatemeh"></td>
+            </tr>
+            <tr>
+                    <td>Family:</td>
+                    <td><input type="text" name="family" placeholder="Enter your family here"></td>
+            </tr>
+            <tr>
+                    <td>Email:</td>
+                    <td><input type="email" value="fatemehghazavi@gmail.com" name="email"> </td>
+
+            </tr>
+            <tr>
+                    <td>Password:</td><td><input type="password" name="password" ></td>
+
+            </tr>
+            <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio"name="gender" value="male">Male
+                    <input type="radio"name="gender" value="female">Female
+                    <input type="radio"name="gender" value="other">Other</td>
+
+            </tr>
+            <tr>
+                
+                    <td>Mobile:</td>
+                    <td>
+                    <select name="mobile">
+                        <option value="0910">0910</option>
+                        <option value="0911" selected>0911</option>
+                        <option value="0913">0913</option>
+
+                    </select>
+                    <input type="tel" name="tel" placeholder="543678">
+                    </td>
+            </tr>
+            <tr>
+                    <td rowspan="4" valign="middle">Interest:</td>
+                    <td><input type="checkbox" name="Music">Music</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Book" disabled>Book</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Philosophy" checked>Philosophy</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Poker">Poker</td>
+                </tr>
+                </tr>
+                 <tr>
+                     <td rowspan="10" valign="middle">My Comment:</td>
+                     <td><textarea name="comment" cols="30" rows="10" placeholder="Awesome web design"></textarea></td>
+                 </tr>
+                 <tr>
+                     <td>
+                        <input type="submit" name="submit" value="SEND">
+                        <input type="reset" name="reset" value="RESET">
+                    </td>
+                    <td></td>
+                 </tr>
+        </tbody>
+    </table>
+    
+ 
+</body>
+</html>
