@@ -1,0 +1,53 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: gray;
+    margin: 0px;
+}
+.divh2{
+    padding: 20px;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 0px;
+ 
+}
+header{
+    background-color:black;
+    color: white;
+    margin: auto;
+    width: 80%;
+}
+header h1{
+    padding:15px;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+h2{
+    margin-top: 0px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+.maingallery{
+    background-color: rgb(201, 183, 183);
+    padding-left: 94px;
+}
+.maingallery img{
+width: 254px;
+height: 189px;
+box-sizing: border-box; 
+margin: 10px;
+
+}
+.paraph{
+    background-color: rgb(230, 138, 138);
+    padding: 10px;
+    margin-top: 16px;
+}
+h3{
+    background-color: red;
+    color: black;
+}
